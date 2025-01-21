@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive SWOT Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Interactive SWOT Analysis</h1>
+    <div class="swot-container">
+        <div class="swot-section strengths">
+            <h2>Strengths</h2>
+            <div id="strengths-list"></div>
+        </div>
+        <div class="swot-section weaknesses">
+            <h2>Weaknesses</h2>
+            <div id="weaknesses-list"></div>
+        </div>
+        <div class="swot-section opportunities">
+            <h2>Opportunities</h2>
+            <div id="opportunities-list"></div>
+        </div>
+        <div class="swot-section threats">
+            <h2>Threats</h2>
+            <div id="threats-list"></div>
+        </div>
+    </div>
+    <canvas id="swotChart" width="400" height="400"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

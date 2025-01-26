@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <div class="input-container">
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Age">
+        </div>
+        <div class="input-container">
+            <label for="gender">Gender:</label>
+            <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="input-container">
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" placeholder="Height (cm)">
+        </div>
+        <div class="input-container">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" placeholder="Weight (kg)">
+        </div>
+        <button onclick="calculateBMI()">Calculate</button>
+        <div id="result"></div>
+    </div>
+    <p>
+        Living a Healthy Lifestyle
+To lead a healthy life, the World Health Organization (WHO) suggests consuming plenty of fruits and vegetables, reducing the intake of fats, sugar, and salt, and engaging in regular physical activity. Maintaining a healthy body weight can be determined by checking one's Body Mass Index (BMI) based on height and weight. WHO offers a range of guidelines to promote healthy living.
+
+12 Guidelines for Healthy Eating
+Choose a Nutrition-Rich Diet: Base your diet primarily on plant-based foods.
+
+Frequent Consumption of Carbohydrates: Incorporate bread, whole grains, pasta, rice, or potatoes into daily meals.
+
+Daily Vegetable and Fruit Intake: Prioritize fresh, local produce, aiming for at least 400g per day.
+
+Maintain a Healthy Weight: Keep your BMI between 18.5–25 through daily physical activity.
+
+Fat Intake Awareness: Limit fats to 30% of daily energy, focusing on unsaturated fats.
+
+Protein Choices: Opt for beans, legumes, lentils, fish, poultry, or lean meat over fatty meats.
+
+Dairy Products: Select low-fat, low-salt options.
+
+Limit Sugars: Minimize intake of free sugars, sugary drinks, and sweets.
+
+Salt Consumption: Keep salt intake below one teaspoon (5g) per day, including in processed foods.
+
+Moderate Alcohol: WHO advises that the healthiest choice is to abstain from alcohol, but if consumed, do so sparingly.
+
+Safe Food Preparation: Cook food through steaming, baking, boiling, or microwaving to limit added fat.
+
+Breastfeeding: Exclusively breastfeed up to 6 months, then introduce safe complementary foods, continuing breastfeeding until 2 years of age.
+
+Note: BMI is calculated by dividing a person's weight in kilograms by their height in meters squared.
+</p>
+<pre>
+Understanding Body Mass Index (BMI)
+BMI, previously known as the Quetelet index, is a measure to indicate adult nutritional status. It is derived by dividing a person’s weight in kilograms by the square of their height in meters (kg/m²). For instance, an adult weighing 70 kg and height of 1.75 m will have a BMI of 22.9:
+
+BMI
+=
+70
+kg
+1.75
+m
+2
+=
+22.9
+BMI Categories for Adults Over 20
+BMI Range	Nutritional Status
+< 18.5	Underweight
+18.5–24.9	Normal weight
+25.0–29.9	Pre-obesity
+30.0–34.9	Obesity class I
+35.0–39.9	Obesity class II
+> 40	Obesity class III
+Higher BMI values correlate with increased risk for diseases like cardiovascular issues, hypertension, certain cancers, and diabetes.
+
+BMI in Children and Adolescents
+BMI is also useful for children and teens, adjusted for age and sex, using specific cut-off points. BMI-for-age is used to define overweight and obesity levels as per WHO standards:
+
+Age Group	Cut-off for Overweight	Cut-off for Obesity
+0–5 years	> 97th percentile	> 99th percentile
+5–19 years	> +1 SD	> +2 SD
+Benefits of Regular Physical Activity
+Engaging in activities like walking, cycling, or dancing has multiple health benefits. It can lower the risk of chronic diseases, help manage weight, and enhance mental well-being. Physical activity fosters social interactions, boosts community bonds, and reduces risk behaviors.
+
+Additionally, promoting physical activity can decrease traffic congestion, noise, and air pollution, encouraging a healthier environment. It also supports workplace productivity and educational outcomes.
+
+The Advantages of a Balanced Diet
+Adopting a balanced diet filled with various nutrients is a step towards a healthier lifestyle. This includes:
+
+Boosting Immunity: Essential vitamins and minerals support immune function.
+
+Disease Prevention: A balanced diet can protect against non-communicable diseases like obesity, diabetes, cardiovascular ailments, and some cancers.
+
+Maintaining Body Weight: Proper eating habits contribute to a healthy weight.
+
+Exploring Culinary Diversity: Healthy eating allows you to enjoy different cuisines and food preparations.
+
+Emotional Benefits: A colorful and diverse diet adds emotional satisfaction to meals.
+
+By making informed dietary choices and engaging in regular physical activity, individuals can greatly enhance their overall health and quality of life.
+</pre>
+    <script src="script.js"></script>
+</body>
+</html>
